@@ -35,7 +35,7 @@ fetchAllUsers()
 
             domUserList.innerHTML += 
                 `<li>
-                    <a href="/user.html?name=${name}">${name}</a>
+                    <a href="user.html?name=${name}">${name}</a>
                 </li>`
         })
     })

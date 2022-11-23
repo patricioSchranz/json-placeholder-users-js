@@ -256,7 +256,7 @@ fetchAllUsers()
     }
     else{
         alert(`User ${searchedUserName} wurde nicht gefunden`)
-        window.open('/index.html', '_self')
+        window.open('index.html', '_self')
     }
 
     // console.log('the searched user', searchedUser)
@@ -277,7 +277,7 @@ const
     headingOne = document.querySelector('h1')
 
 // => open index.html
-headingOne.addEventListener('click', ()=> window.open('/index.html', '_self'))
+headingOne.addEventListener('click', ()=> window.open('index.html', '_self'))
 
 // => fill an album section with the right pics => called by click on an album link
 const fetchTheRightPictures = (element)=>{
