@@ -32,10 +32,14 @@ fetchAllUsers()
 
         data.forEach(user =>{
             const {name} = user
+            console.log('user =>', name)
+
+            nameEncode = encodeURIComponent(name)
+            console.log('user encoded =>', nameEncode)
 
             domUserList.innerHTML += 
                 `<li>
-                    <a href="user.html?name=${name}">${name}</a>
+                    <a href="user.html?name=${nameEncode}">${name}</a>
                 </li>`
         })
     })

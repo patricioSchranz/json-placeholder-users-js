@@ -7,6 +7,7 @@ Das Gegenstück zu Json Placeholder Users PHP. Ziel war es das gleiche Resultat 
 ## Stichworte
 
 - \# Fetch API
+- \# encodeURIComponent() 
 - \# Query String mit JS auslesen
 - \# URLSearchParams Interface
 - \# DOM Manipulation
